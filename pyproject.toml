@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "calcadp"
+version = "0.1.0"
+description = "Aparatus dew point calculation utility"
+authors = ["lymereJ <jeremy.lerond@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+coolprop = "^6.6.0"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
